@@ -1,0 +1,87 @@
+
+html {
+    background-color: #253e8c;
+}
+body {
+    background-color: #253e8c;
+}
+.section{
+    transition: 1s;
+}
+.container {
+    margin-top: 5em;
+}
+.containerLink {
+    margin: 0;
+}
+.bioSection {
+    margin: 0.5em;
+    text-align:center;
+    color: #253e8c;
+    background-color: #f3f2f5;
+    border-radius: 15px;
+}
+.linkSection {
+    margin: 0.5em;
+    background-color: rgba(243, 242, 245, 0.5);
+    text-align: center;
+    color:#f3f2f5;
+    border-radius: 15px;
+}
+#profilePic {
+    width: 10em;
+    margin-top: 4em;
+    margin-bottom: 1em;
+    border-radius: 50%;
+}
+#logo {
+    width: 10em;
+    margin-top: 0.5em;
+}
+#fullName {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2em;
+}
+.description{
+    padding-bottom: 10%;
+    text-align: left;
+    margin: auto 4em auto 4em;
+    /* padding-bottom: 3em; */
+}
+.links {
+    /* height: 100%; */
+    /* margin-left: 40%; */
+    /* margin-left: 50%; */
+    /* margin-right: 50%; */
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 10%;
+}
+.link {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.link h1 {
+    font-size: 2em;
+    text-align: left;
+    
+}
+.link:hover{
+    transition: 0.3s;
+    transform: scale(1.1,1.1);
+    
+    background-color: #253e8c;
+    color: #FAFF00;
+    /* text-shadow: 0 0 50px #ffee10; */
+    
+    /* background-color: #253e8c; */
+}
+.rowLinks {
+    text-align: center;
+}
+.section-hidden{
+    opacity: 0;
+    transform: translateY(50px);
+
+}
+
